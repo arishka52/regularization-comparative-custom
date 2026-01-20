@@ -12,3 +12,9 @@ class Config:
 
     lambdas = [1e-4, 1e-3, 1e-2, 1e-1, 1, 10, 100]
     alphas = [0.2, 0.5, 0.8]
+
+    learning_rate: float = 0.01
+    max_iter: int = 5000
+    tol: float = 1e-7
+
+    log_target: bool = True
