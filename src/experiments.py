@@ -5,5 +5,8 @@ Experiments:
 - save metrics to reports/tables/results.csv
 """
 
-def run_experiments_placeholder():
-    return "TODO: experiments will be implemented"
+def run_experiments():
+    print("TODO: implement run_experiments (now placeholder).")
+
+def make_figures():
+    print("TODO: implement make_figures (now placeholder).")
